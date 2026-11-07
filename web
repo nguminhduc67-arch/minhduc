@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MINH DUC - Dashboard</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#090d18;color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ padding:22px;background:#111827;
+ border-bottom:1px solid #293449;
+ font-size:23px;font-weight:bold;
+}
+header span{color:#8b7cff}
+main{padding:24px;max-width:900px;margin:auto}
+h1{font-size:30px}
+p{color:#aab4c8}
+.card{
+ background:#151e30;border:1px solid #293449;
+ border-radius:15px;padding:20px;margin-top:18px;
+}
+button{
+ background:#7665ff;color:white;border:0;
+ border-radius:9px;padding:13px 20px;
+ font-size:15px;
+}
+footer{text-align:center;color:#8792a8;padding:30px}
+</style>
+</head>
+<body>
+<header>MINH <span>DUC</span></header>
+<main>
+<h1>Welcome to MINH DUC</h1>
+<p>Your personal hosting dashboard.</p>
+<div class="card">
+<h2>Dashboard</h2>
+<p>Chào mừng bạn đến với hệ thống MINH DUC.</p>
+<button onclick="alert('Chào mừng Admin MINH DUC!')">
+Admin Panel
+</button>
+</div>
+<div class="card">
+<h2>Bot Management</h2>
+<p>Quản lý và theo dõi dịch vụ bot Discord của bạn.</p>
+</div>
+<div class="card">
+<h2>System Status</h2>
+<p>Website: Online</p>
+</div>
+</main>
+<footer>© 2026 MINH DUC</footer>
+</body>
+</html>
